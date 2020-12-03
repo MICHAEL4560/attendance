@@ -1,10 +1,17 @@
 <?php
 
+//local database
+//$host = 'localhost';
+//$db = 'attendance_db';
+//$user= 'root';
+//$password='';
+//$charset = 'utf8mb4';
 
-$host = 'localhost';
-$db = 'attendance_db';
-$user= 'root';
-$password='';
+//remote database
+$host = 'remotemysql.com';
+$db = '0SSv31YWLC';
+$user= '0SSv31YWLC';
+$password='Hc5ulZwdyQ';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
